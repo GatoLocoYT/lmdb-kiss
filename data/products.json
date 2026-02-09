@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "updatedAt": "2026-02-09",
+    "currencyNote": "Los precios se confirman por WhatsApp."
+  },
+  "products": [
+    
+    {
+      "sku": "SNK-001",
+      "name": "Doritos 120g",
+      "type": "stock",
+      "category": "snacks",
+      "inStock": true,
+      "desc": "Sabor Nacho. Importado.",
+      "img": "assets/img/doritos.jpg",
+      "badge": "Más pedido",
+      "price": 2500,
+      "currency": "ARS"
+    },
+    {
+      "sku": "DRK-010",
+      "name": "Monster Energy",
+      "type": "stock",
+      "category": "bebidas",
+      "inStock": true,
+      "desc": "Consultar sabores disponibles.",
+      "img": "assets/img/monster.jpg",
+      "price": 3500,
+      "currency": "ARS"
+    },
+    {
+      "sku": "SEL-100",
+      "name": "Mountain Dew (encargo)",
+      "type": "seleccionado",
+      "category": "bebidas",
+      "inStock": true,
+      "desc": "Por encargo. Precio a acordar.",
+      "img": "assets/img/mdew.jpg",
+      "priceLabel": "A acordar",
+      "currency": "ARS",
+      "price": null
+    },
+    {
+      "sku": "SEL-101",
+      "name": "Cheetos (encargo)",
+      "type": "seleccionado",
+      "category": "snacks",
+      "inStock": true,
+      "desc": "Por encargo. Precio a acordar.",
+      "img": "assets/img/cheetos.jpg",
+      "priceLabel": "A acordar",
+      "currency": "ARS",
+      "price": null
+    }
+    
+  ]
+}
