@@ -259,7 +259,7 @@ function initCommonUI() {
     // social buttons
     document.querySelectorAll("[data-ig]").forEach(a => a.href = LMDB.instagramUrl);
     document.querySelectorAll("[data-group]").forEach(a => a.href = LMDB.groupUrl);
-    document.querySelectorAll("[data-wa]").forEach(a => a.href = waLink("Hola LMDB! Quiero consultar 🙂\n\n" + LMDB.refSignature));
+    document.querySelectorAll("[data-wa]").forEach(a => a.href = waLink("Hola LMDB! Quiero consultar sobre los productos que tienen a la venta 🙂\n\n" + LMDB.refSignature));
 
     // cart open/close
     const open = document.querySelector("[data-cart-open]");
