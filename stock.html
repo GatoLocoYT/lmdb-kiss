@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="es">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,87 +9,92 @@
   <link rel="shortcut icon" href="assets/img/eye-icon.svg" type="image/x-icon">
   <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <body data-page="stock">
-<header class="nav">
-  <div class="container">
-    <div class="nav-inner">
-      <a class="brand" href="index.html"><span class="logo"></span><span>LMDB</span></a>
-      <nav class="links">
-        <a href="stock.html">Stock</a>
-        <a href="seleccionados.html">Seleccionados</a>
-        <a data-ig href="#">Instagram</a>
-        <a data-group href="#">Grupo</a>
-      </nav>
-      <button class="btn cart-btn" data-cart-open>🛒 Carrito <span class="cart-count" data-cart-count></span></button>
-    </div>
-  </div>
-</header>
-
-<main class="hero">
-  <div class="container">
-    <div class="hero-card">
-      <span class="badge">Productos en stock</span>
-      <h1 class="headline">Listos para vender</h1>
-      <p class="sub">Elegí productos disponibles y armá tu carrito. El precio se confirma por WhatsApp.</p>
-
-      <div class="toolbar" style="margin-top:14px;">
-        <label class="muted" for="category-select">Categoría:</label>
-        <select id="category-select" data-category>
-          <option value="all">Todas</option>
-          <option value="snacks">Snacks</option>
-          <option value="bebidas">Bebidas</option>
-          <option value="postres">Postres</option>
-          <option value="otros">Otros</option>
-        </select>
-        <a class="btn" data-wa href="#">📲 Consultar</a>
+  <header class="nav">
+    <div class="container">
+      <div class="nav-inner">
+        <a class="brand" href="index.html"><span class="logo"></span><span>LMDB</span></a>
+        <nav class="links">
+          <a href="stock.html">Stock</a>
+          <a href="seleccionados.html">Seleccionados</a>
+          <a data-ig href="#">Instagram</a>
+          <a data-group href="#">Grupo</a>
+        </nav>
+        <button class="btn cart-btn" data-cart-open>🛒 Carrito <span class="cart-count" data-cart-count></span></button>
       </div>
     </div>
+  </header>
 
-    <section>
-      <div class="section-title">
-        <div>
-          <h2>Galería</h2>
-          <p class="muted">Si no ves productos aún, es porque la lista está “en armado”.</p>
+  <main class="hero">
+    <div class="container">
+      <div class="hero-card">
+        <span class="badge">Productos en stock</span>
+        <h1 class="headline">Listos para vender</h1>
+        <p class="sub">Elegí productos disponibles y armá tu carrito. El precio se confirma por WhatsApp.</p>
+
+        <div class="toolbar" style="margin-top:14px;">
+          <label class="muted" for="category-select">Categoría:</label>
+          <select id="category-select" data-category>
+            <option value="all">Todas</option>
+            <option value="snacks">Snacks</option>
+            <option value="bebidas">Bebidas</option>
+            <option value="postres">Postres</option>
+            <option value="otros">Otros</option>
+          </select>
+          <a class="btn" data-wa href="#">📲 Consultar</a>
         </div>
       </div>
 
-      <div class="hero-card" data-empty style="display:none;">
-        <b>Próximamente</b>
-        <p class="muted" style="margin:6px 0 0;">Estamos cargando el catálogo. Volvé en un rato o consultá por WhatsApp.</p>
-      </div>
+      <section>
+        <div class="section-title">
+          <div>
+            <h2>Galería</h2>
+            <!-- <p class="muted">Stock limitado y rotativo. <br>
+              Esta categoría se actualiza constantemente.
+              Si buscás algo en particular, escribinos y lo vemos.</p> -->
+          </div>
+        </div>
 
-      <div class="grid" data-products></div>
-    </section>
-  </div>
-</main>
+        <div class="hero-card" data-empty style="display:none;">
+          <b>Próximamente</b>
+          <p class="muted" style="margin:6px 0 0;">Estamos cargando el catálogo. Volvé en un rato o consultá por
+            WhatsApp.</p>
+        </div>
 
-<!-- CART PANEL -->
-<aside class="cart-panel" data-cart-panel>
-  <div class="cart-header">
-    <b>Tu carrito</b>
-    <div style="display:flex; gap:8px;">
-      <button class="btn" data-cart-clear>Vaciar</button>
-      <button class="btn" data-cart-close>Cerrar</button>
+        <div class="grid" data-products></div>
+      </section>
     </div>
-  </div>
-  <div class="muted" data-cart-empty>Tu carrito está vacío.</div>
-  <div class="cart-list" data-cart-list></div>
-  <label class="muted">Notas (opcional)</label>
-  <textarea data-cart-notes placeholder="Notas para LMDB..."></textarea>
-  <div style="margin-top:10px;">
-    <button class="btn primary" style="width:100%;" data-cart-send>Enviar pedido por WhatsApp</button>
-  </div>
-</aside>
+  </main>
 
-<div class="toast" data-toast></div>
+  <!-- CART PANEL -->
+  <aside class="cart-panel" data-cart-panel>
+    <div class="cart-header">
+      <b>Tu carrito</b>
+      <div style="display:flex; gap:8px;">
+        <button class="btn" data-cart-clear>Vaciar</button>
+        <button class="btn" data-cart-close>Cerrar</button>
+      </div>
+    </div>
+    <div class="muted" data-cart-empty>Tu carrito está vacío.</div>
+    <div class="cart-list" data-cart-list></div>
+    <label class="muted">Notas (opcional)</label>
+    <textarea data-cart-notes placeholder="Notas para LMDB..."></textarea>
+    <div style="margin-top:10px;">
+      <button class="btn primary" style="width:100%;" data-cart-send>Enviar pedido por WhatsApp</button>
+    </div>
+  </aside>
 
-<footer class="footer">
-  <div class="container" style="display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap;">
-    <span>© <span data-year></span> LMDB</span>
-    <a class="muted" href="index.html">Volver al inicio</a>
-  </div>
-</footer>
+  <div class="toast" data-toast></div>
 
-<script src="assets/js/app.js"></script>
+  <footer class="footer">
+    <div class="container" style="display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap;">
+      <span>© <span data-year></span> LMDB</span>
+      <a class="muted" href="index.html">Volver al inicio</a>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
 </body>
+
 </html>

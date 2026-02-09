@@ -329,7 +329,7 @@ function escapeAttr(str) { return escapeHtml(str).replace(/"/g, "&quot;"); }
     if (specialBtn && specialInput) {
         specialBtn.addEventListener("click", () => {
             const wanted = specialInput.value.trim();
-            const msg = `Hola LMDB! Quiero pedir un producto por ENCARGO (a acordar):\n- ${wanted || "(sin especificar)"}\n\n${LMDB.refSignature}`;
+            const msg = `Hola LMDB! Quiero pedir un producto por ENCARGO. \n\nPrecio (a acordar):\n- ${wanted || "(sin especificar)"}\n\n${LMDB.refSignature}`;
             window.open(waLink(msg), "_blank", "noopener");
         });
     }
