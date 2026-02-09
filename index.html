@@ -1,126 +1,151 @@
 <!doctype html>
 <html lang="es">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>LMDB | La Mona de Baviera</title>
-  <meta name="description" content="Snacks, bebidas y postres. Stock inmediato y productos por encargo. Pedidos por WhatsApp." />
+  <meta name="description"
+    content="Snacks, bebidas y postres. Stock inmediato y productos por encargo. Pedidos por WhatsApp." />
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="shortcut icon" href="assets/img/eye-icon.svg" type="image/x-icon">
+  <!-- Open Graph / WhatsApp / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="LMDB — La Mona de Baviera | Catálogo Online" />
+  <meta property="og:description"
+    content="Snacks, bebidas, importados y productos por encargo. Armá tu carrito y pedí directo por WhatsApp. Entregas en Tucumán y alrededores." />
+  <meta property="og:url" content="https://lamonadebaviera.onrender.com" />
+  <meta property="og:image" content="https://lamonadebaviera.onrender.com/assets/img/og-preview.jpg" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="LMDB — La Mona de Baviera" />
+  <meta name="twitter:description"
+    content="Catálogo online con pedidos por WhatsApp. Stock y encargos. Entregas en Tucumán." />
+  <meta name="twitter:image" content="https://lamonadebaviera.onrender.com/assets/img/og-preview.jpg" />
+
+  <!-- SEO básico -->
+  <meta name="description"
+    content="LMDB — La Mona de Baviera. Snacks, bebidas, importados y encargos. Pedidos por WhatsApp en Tucumán." />
+
 </head>
+
 <body>
-<header class="nav">
-  <div class="container">
-    <div class="nav-inner">
-      <a class="brand" href="index.html">
-        <span class="logo" aria-hidden="true"></span>
-        <span>LMDB</span>
-      </a>
+  <header class="nav">
+    <div class="container">
+      <div class="nav-inner">
+        <a class="brand" href="index.html">
+          <span class="logo" aria-hidden="true"></span>
+          <span>LMDB</span>
+        </a>
 
-      <nav class="links">
-        <a href="stock.html">Productos en stock</a>
-        <a href="seleccionados.html">Productos seleccionados</a>
-        <a data-ig href="#">Instagram</a>
-        <a data-group href="#">Grupo</a>
-      </nav>
+        <nav class="links">
+          <a href="stock.html">Productos en stock</a>
+          <a href="seleccionados.html">Productos seleccionados</a>
+          <a data-ig href="#">Instagram</a>
+          <a data-group href="#">Grupo</a>
+        </nav>
 
-      <button class="btn cart-btn" data-cart-open>
-        🛒 Carrito
-        <span class="cart-count" data-cart-count></span>
-      </button>
-    </div>
-  </div>
-</header>
-
-<main class="hero">
-  <div class="container">
-    <div class="hero-card">
-      <span class="badge">Elegís · Pagas · Disfrutas</span>
-      <h1 class="headline">La Mona de Baviera <span class="muted">(LMDB)</span></h1>
-      <p class="sub">
-        Precios competitivos, mucha variedad y acceso a productos que en Tucumán no se consiguen fácil.
-        Pedidos por WhatsApp. Entregas en <b>Yerba Buena, San Miguel de Tucumán</b> y alrededores.
-      </p>
-
-      <div class="pill-row">
-        <span class="pill">✅ Comprás por WhatsApp</span>
-        <span class="pill">✅ Stock inmediato</span>
-        <span class="pill">✅ Encargos “a acordar”</span>
-        <span class="pill">✅ Novedades por grupo</span>
-      </div>
-
-      <div style="margin-top:18px; display:flex; gap:10px; flex-wrap:wrap;">
-        <a class="btn primary" href="stock.html">Ver productos en stock</a>
-        <a class="btn" href="seleccionados.html">Ver productos seleccionados</a>
-        <a class="btn" data-wa href="#">📲 Consultar por WhatsApp</a>
+        <button class="btn cart-btn" data-cart-open>
+          🛒 Carrito
+          <span class="cart-count" data-cart-count></span>
+        </button>
       </div>
     </div>
+  </header>
 
-    <section>
-      <div class="section-title">
-        <div>
-          <h2>¿Cómo se compra?</h2>
-          <p class="muted">Elegís el producto, armás tu carrito y enviás por WhatsApp.</p>
+  <main class="hero">
+    <div class="container">
+      <div class="hero-card">
+        <span class="badge">Elegís · Pagas · Disfrutas</span>
+        <h1 class="headline">La Mona de Baviera <span class="muted">(LMDB)</span></h1>
+        <p class="sub">
+          Precios competitivos, mucha variedad y acceso a productos que en Tucumán no se consiguen fácil.
+          Pedidos por WhatsApp. Entregas en <b>Yerba Buena, San Miguel de Tucumán</b> y alrededores.
+        </p>
+
+        <div class="pill-row">
+          <span class="pill">✅ Comprás por WhatsApp</span>
+          <span class="pill">✅ Stock inmediato</span>
+          <span class="pill">✅ Encargos “a acordar”</span>
+          <span class="pill">✅ Novedades por grupo</span>
+        </div>
+
+        <div style="margin-top:18px; display:flex; gap:10px; flex-wrap:wrap;">
+          <a class="btn primary" href="stock.html">Ver productos en stock</a>
+          <a class="btn" href="seleccionados.html">Ver productos seleccionados</a>
+          <a class="btn" data-wa href="#">📲 Consultar por WhatsApp</a>
         </div>
       </div>
 
-      <div class="grid">
-        <div class="card" style="padding:16px">
-          <span class="badge">1</span>
-          <h3>Elegí productos</h3>
-          <p class="muted">Entrá a Stock o Seleccionados y tocá “Agregar”.</p>
+      <section>
+        <div class="section-title">
+          <div>
+            <h2>¿Cómo se compra?</h2>
+            <p class="muted">Elegís el producto, armás tu carrito y enviás por WhatsApp.</p>
+          </div>
         </div>
-        <div class="card" style="padding:16px">
-          <span class="badge">2</span>
-          <h3>Enviá el pedido</h3>
-          <p class="muted">Desde el carrito: “Enviar pedido por WhatsApp”.</p>
-        </div>
-        <div class="card" style="padding:16px">
-          <span class="badge">3</span>
-          <h3>Confirmación</h3>
-          <p class="muted">LMDB confirma disponibilidad y te pasa el medio de pago.</p>
-        </div>
-      </div>
-    </section>
-  </div>
-</main>
 
-<!-- CART PANEL -->
-<aside class="cart-panel" data-cart-panel aria-label="Carrito">
-  <div class="cart-header">
-    <b>Tu carrito</b>
-    <div style="display:flex; gap:8px;">
-      <button class="btn" data-cart-clear>Vaciar</button>
-      <button class="btn" data-cart-close>Cerrar</button>
+        <div class="grid">
+          <div class="card" style="padding:16px">
+            <span class="badge">1</span>
+            <h3>Elegí productos</h3>
+            <p class="muted">Entrá a Stock o Seleccionados y tocá “Agregar”.</p>
+          </div>
+          <div class="card" style="padding:16px">
+            <span class="badge">2</span>
+            <h3>Enviá el pedido</h3>
+            <p class="muted">Desde el carrito: “Enviar pedido por WhatsApp”.</p>
+          </div>
+          <div class="card" style="padding:16px">
+            <span class="badge">3</span>
+            <h3>Confirmación</h3>
+            <p class="muted">LMDB confirma disponibilidad y te pasa el medio de pago.</p>
+          </div>
+        </div>
+      </section>
     </div>
-  </div>
+  </main>
 
-  <div class="muted" data-cart-empty>Tu carrito está vacío. Agregá productos desde Stock o Seleccionados.</div>
-  <div class="cart-list" data-cart-list></div>
+  <!-- CART PANEL -->
+  <aside class="cart-panel" data-cart-panel aria-label="Carrito">
+    <div class="cart-header">
+      <b>Tu carrito</b>
+      <div style="display:flex; gap:8px;">
+        <button class="btn" data-cart-clear>Vaciar</button>
+        <button class="btn" data-cart-close>Cerrar</button>
+      </div>
+    </div>
 
-  <label class="muted" for="notes">Notas (opcional)</label>
-  <textarea id="notes" data-cart-notes placeholder="Ej: quiero 2 sabores distintos, o consultar disponibilidad..."></textarea>
+    <div class="muted" data-cart-empty>Tu carrito está vacío. Agregá productos desde Stock o Seleccionados.</div>
+    <div class="cart-list" data-cart-list></div>
 
-  <div style="margin-top:10px; display:flex; gap:10px;">
-    <button class="btn primary" style="flex:1" data-cart-send>Enviar pedido por WhatsApp</button>
-  </div>
+    <label class="muted" for="notes">Notas (opcional)</label>
+    <textarea id="notes" data-cart-notes
+      placeholder="Ej: quiero 2 sabores distintos, o consultar disponibilidad..."></textarea>
 
-  <p class="muted" style="margin-top:10px; font-size:12px;">
-    * Los precios se confirman por WhatsApp. <br>
-    * Entrega en Yerba Buena, San Miguel de Tucumán y alrededores.
-  </p>
-</aside>
+    <div style="margin-top:10px; display:flex; gap:10px;">
+      <button class="btn primary" style="flex:1" data-cart-send>Enviar pedido por WhatsApp</button>
+    </div>
 
-<div class="toast" data-toast></div>
+    <p class="muted" style="margin-top:10px; font-size:12px;">
+      * Los precios se confirman por WhatsApp. <br>
+      * Entrega en Yerba Buena, San Miguel de Tucumán y alrededores.
+    </p>
+  </aside>
 
-<footer class="footer">
-  <div class="container" style="display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap;">
-    <span>© <span data-year></span> LMDB · La Mona de Baviera</span>
-    <a class="btn" data-group href="#" style="margin-top:10px;"><img src="assets/img/Whatsapp.png" alt="WhatsApp Logo" id="wp-logo">Descubre mas en el Grupo oficial!</a>
-    <span>Ordenes con <b>Ref: RAMIRO</b></span>
-  </div>
-</footer>
+  <div class="toast" data-toast></div>
 
-<script src="assets/js/app.js"></script>
+  <footer class="footer">
+    <div class="container" style="display:flex; justify-content:space-between; gap:10px; flex-wrap:wrap;">
+      <span>© <span data-year></span> LMDB · La Mona de Baviera</span>
+      <a class="btn" data-group href="#" style="margin-top:10px;"><img src="assets/img/Whatsapp.png" alt="WhatsApp Logo"
+          id="wp-logo">Descubre mas en el Grupo oficial!</a>
+      <span>Ordenes con <b>Ref: RAMIRO</b></span>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js"></script>
 </body>
+
 </html>
