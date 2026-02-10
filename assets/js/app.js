@@ -72,13 +72,18 @@ function productCard(p) {
     const out = isStock && p.inStock === false;
     if (out && LMDB.hideOutOfStock) return "";
 
-    const img = p.img ? `<img src="${p.img}" alt="${escapeHtml(p.name)}" loading="lazy">`
+    const img = p.img
+        ? `<img src="${p.img}" alt="${escapeHtml(p.name)}" loading="lazy">`
         : `<div class="ph" aria-label="Imagen"></div>`;
 
     const badge = out ? "Sin stock" : (p.badge ?? (p.type === "seleccionado" ? "Encargo" : "Disponible"));
     const badgeClass = out ? "badge danger" : "badge";
 
-    const price = p.priceLabel ? `<span class="price">${escapeHtml(p.priceLabel)}</span>` : `<span class="price">Consultar</span>`;
+    const price = p.priceLabel
+        ? `<span class="price">${escapeHtml(p.priceLabel)}</span>`
+        : `<span class="price">Consultar</span>`;
+
+    const buyLabel = p.type === "seleccionado" ? "Consultar" : "Comprar";
 
     return `
     <article class="card product" data-sku="${escapeAttr(p.sku)}">
@@ -94,13 +99,16 @@ function productCard(p) {
           ${price}
           <div class="actions">
             <button class="btn" data-add="${escapeAttr(p.sku)}" ${out ? "disabled" : ""}>Agregar</button>
-            <a class="btn primary" data-buy="${escapeAttr(p.sku)}" href="#" ${out ? 'aria-disabled="true"' : ""}>Comprar</a>
+            <a class="btn primary" data-buy="${escapeAttr(p.sku)}" href="#" ${out ? 'aria-disabled="true"' : ""}>
+              ${buyLabel}
+            </a>
           </div>
         </div>
       </div>
     </article>
   `;
 }
+
 
 function renderProducts(products, type, category = "all") {
     const wrap = document.querySelector("[data-products]");

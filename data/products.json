@@ -7,7 +7,7 @@
     {
       "sku": "STK-001",
       "name": "Stanley Vaso Térmico Quencher H2.0 1.18L",
-      "type": "stock",
+      "type": "seleccionado",
       "category": "otros",
       "inStock": true,
       "price": 99990,
@@ -20,7 +20,7 @@
     {
       "sku": "STK-002",
       "name": "Stanley Vaso Térmico x Messi Quencher Protour Flip Straw 1.2L",
-      "type": "stock",
+      "type": "seleccionado",
       "category": "otros",
       "inStock": true,
       "price": 119990,
@@ -33,7 +33,7 @@
     {
       "sku": "STK-003",
       "name": "Stanley Termo Classic Negro 1L",
-      "type": "stock",
+      "type": "seleccionado",
       "category": "otros",
       "inStock": true,
       "price": 99990,
@@ -46,7 +46,7 @@
     {
       "sku": "STK-004",
       "name": "Stanley Termo Classic Verde 1L",
-      "type": "stock",
+      "type": "seleccionado",
       "category": "otros",
       "inStock": true,
       "price": 99990,
@@ -59,7 +59,7 @@
     {
       "sku": "STK-005",
       "name": "Stanley Termo Classic Clay 1.4L",
-      "type": "stock",
+      "type": "seleccionado",
       "category": "otros",
       "inStock": true,
       "price": 139990,
@@ -72,7 +72,7 @@
     {
       "sku": "STK-006",
       "name": "Stanley Termo Classic Verde 2L",
-      "type": "stock",
+      "type": "seleccionado",
       "category": "otros",
       "inStock": true,
       "price": 146990,
@@ -85,7 +85,7 @@
     {
       "sku": "STK-007",
       "name": "Stanley Vaso Térmico Quencher H2.0 Adventure Azure Reverb 1.18L",
-      "type": "stock",
+      "type": "seleccionado",
       "category": "otros",
       "inStock": true,
       "price": 99990,
@@ -98,7 +98,7 @@
     {
       "sku": "STK-008",
       "name": "Stanley Termo Black Chroma 2L",
-      "type": "stock",
+      "type": "seleccionado",
       "category": "otros",
       "inStock": true,
       "price": 146990,
@@ -111,7 +111,7 @@
     {
       "sku": "STK-009",
       "name": "Stanley Mate Slim Negro 200 ml",
-      "type": "stock",
+      "type": "seleccionado",
       "category": "otros",
       "inStock": true,
       "price": 51990,
@@ -124,7 +124,7 @@
     {
       "sku": "STK-010",
       "name": "JBL Charge 6 Parlante Bluetooth Negro",
-      "type": "stock",
+      "type": "seleccionado",
       "category": "otros",
       "inStock": true,
       "price": 229990,
@@ -137,7 +137,7 @@
     {
       "sku": "STK-011",
       "name": "JBL Charge 6 Parlante Bluetooth Azul",
-      "type": "stock",
+      "type": "seleccionado",
       "category": "otros",
       "inStock": true,
       "price": 229990,
@@ -150,7 +150,7 @@
     {
       "sku": "STK-012",
       "name": "JBL Flip 7 Squad Parlante Bluetooth",
-      "type": "stock",
+      "type": "seleccionado",
       "category": "otros",
       "inStock": true,
       "price": 192990,
@@ -163,7 +163,7 @@
     {
       "sku": "STK-013",
       "name": "JBL TWS Vibes Buds Audífonos Bluetooth",
-      "type": "stock",
+      "type": "seleccionado",
       "category": "otros",
       "inStock": true,
       "price": 71990,
@@ -175,7 +175,7 @@
     },
     {"sku": "STK-014",
       "name": "JBL Headset T520 Audífono Bluetooth Negro",
-      "type": "stock",
+      "type": "seleccionado",
       "category": "otros",
       "inStock": true,
       "price": 109000,
