@@ -91,7 +91,8 @@ function productCard(p) {
       <div class="content">
         <div class="row">
           <span class="${badgeClass}">${escapeHtml(badge)}</span>
-          <span class="sku">${escapeHtml(p.sku)}</span>
+         <!--  <span class="sku">${escapeHtml(p.sku)}</span> -->
+         <span class="category">${escapeHtml(p.category)}</span>
         </div>
         <h3>${escapeHtml(p.name)}</h3>
         <p class="muted">${escapeHtml(p.desc ?? "")}</p>
